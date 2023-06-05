@@ -1,0 +1,31 @@
+#nav{
+    height:60px;
+    background-color: turquoise;
+    line-height: normal;
+    width:100%;
+    float:left;
+    box-sizing: border-box;
+}
+#left{
+    float:left;
+    text-align:left;
+    padding-top:5px;
+    z-index:1;
+    width:33%;
+}
+#middle{
+    float:left;
+    text-align:center;
+    padding-top: 18px;
+    z-index:2;
+    width:33%;
+}
+a{
+    margin:3px;
+    text-decoration: none;
+}
+#right{
+    float:right;
+    z-index: 3;
+    width:33%;
+}
